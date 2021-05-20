@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Register</title>
+</head>
+<body>
+     <div class="container py-4">
+            <h2>Handling Forms in ExpressJS</h2>
+            <div class="col-md-6 bg-dark p-4 mt-2">
+              <form action="/submit-form" method="POST">
+                <div class="form-group">
+                  <label for="username" class="form-label">Username</label>
+                  <input type="text" class="form-control" name="username" id="Username"  placeholder="Enter Username">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" name="email" id="email"  placeholder="Enter Email">
+                  </div>
+                 
+                <button type="submit" class="btn btn-success">Submit</button>
+              </form>
+            </div>
+            
+     </div>
+
+</body>
+</html>
